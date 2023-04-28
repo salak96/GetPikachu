@@ -10,7 +10,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 .container h1{
     font-size: 40px;
@@ -52,17 +51,13 @@
     margin: 0;
   }
 .card{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    width: 20%;
-    height: 100%;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    width: 300px;
+    height: 300px;
     overflow: hidden;
-    position: normal;
-    margin-left: 600px;
+    position: relative;
+    margin-left: 620px;
 }
 .card p{
     display: flex;
@@ -77,24 +72,13 @@
 }
 @media(max-width: 768px){
     .card{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: row;
       border-radius: 10px;
       box-shadow: 0 0 10px rgba(0,0,0,0.2);
+      width: 300px;
+      height: 300px;
       overflow: hidden;
-      position: normal;
-      margin-left: 0px;
-      width: 100%;
-    }
-    .card p{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    font-size: 10px;
-    font-weight: 500;
-    margin-bottom: 10px;
-    line-height: 1.5;
+      position: relative;
+      margin-left: 330px;
+      margin-top: 30px;
     }
 }
