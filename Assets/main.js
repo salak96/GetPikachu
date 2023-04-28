@@ -6,6 +6,7 @@ fetch("https://pokeapi.co/api/v2/pokemon/25")
   .then(response => response.json())
   .then(data => {
     addEventListener("click", () => {
+    //pikachu container
     pikachuContainer.innerHTML = "";
     const pikachuName = document.createElement("h2");
     pikachuContainer.appendChild(pikachuName);
