@@ -55,13 +55,13 @@
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    width: 60%;
+    width: 70%;
     height: 100%;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
     overflow: hidden;
     position: normal;
-    margin-left: 250px;
+    margin-left: 170px;
 }
 .card p{
     display: flex;
@@ -84,8 +84,8 @@
       box-shadow: 0 0 10px rgba(0,0,0,0.2);
       overflow: hidden;
       position: normal;
-      margin-left: 20px;
-      width: 90%;
+      margin-left: 0px;
+      width: 100%;
     }
     .card p{
     display: flex;
